@@ -1,0 +1,466 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 15, 15);
+    font-family: sans-serif;
+
+    overflow-x: hidden;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff00ea1c; 
+    border-radius: 6px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+
+#bg{
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+
+.pfp-class {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    padding-top: 29vw;
+    top: 25vw;
+
+}
+
+#pfp {
+    width: 13%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: rgb(8, 8, 8) 2vw solid;
+    padding: 1px;
+    background-color: rgb(8, 8, 8);
+
+}
+
+#black-bar{
+    width: 100%;
+    height: 15vw;
+    background-color: rgb(8, 8, 8);
+    position: absolute;
+    top: 34vw;
+    z-index: -1;
+
+    display: flex;
+
+    padding-bottom: 40px;
+}
+
+
+
+#black-bar h1{
+    color: rgba(255, 255, 255, 0.89);
+    z-index: -2;
+}
+
+.blank{
+
+    height: 24vw;
+    background-color: rgb(15, 15, 15);
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2vw;
+    font-size: small;
+    
+
+}
+
+#border-g{
+    background: linear-gradient(to right, rgb(255, 0, 128), rgb(242, 247, 0), rgb(0, 255, 0));
+    height: 2px;
+}
+
+
+#red{
+    color: rgba(255, 0, 221, 0.596);
+    text-shadow: 0px 0vw 1.3vw rgb(255, 0, 221) ;
+}
+
+.hide-bg{
+    background-color: rgb(15, 15, 15);
+}
+.hide-bg p{
+    margin: 0px;
+}
+
+.information{
+    width: 50%;
+    background: linear-gradient(to right, hsla(330, 100%, 50%, 0.24), rgba(153, 0, 84, 0.308));
+    box-shadow: 0px 0px 2vw rgba(255, 1, 141, 0.911);
+    margin: auto;
+
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    
+    margin-bottom: 5vw;
+}
+
+.information h2{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    text-shadow: 0px 0px 2vw black;
+    padding: 1px;
+    padding-top: 2vw;
+    
+    
+}
+
+.info-imgs{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#wattpad{
+    width: 20vw;
+
+}
+
+#fanfiction{
+    width: 20vw;
+}
+
+.information2{
+    width: 50%;
+    background: linear-gradient(to right, hsla(330, 100%, 50%, 0.24), rgba(153, 0, 84, 0.308));
+    box-shadow: 0px 0px 2vw rgba(255, 1, 141, 0.911);
+    margin: auto;
+
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-bottom: 100px;
+}
+
+.information2 h2{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    text-shadow: 0px 0px 2vw black;
+    padding: 1px;
+    padding-top: 2vw;
+    padding-bottom: 20px;
+}
+
+.center-stuff{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#discord{
+    
+    width: 20vw;
+    padding-bottom: 20px;
+}
+
+#secret{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    padding-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #006e09;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #002503;
+}
+
+input[type="text"]:focus {
+    border-color: #00bd19;
+    outline: none;
+
+}
+
+#pass-button{
+    padding: 10px;
+    margin: 5px 0;
+
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #002503;
+}
+
+#move{
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0%);
+    width: 200vw;
+}
+
+#works-button{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 2vw black;
+    background-color: rgb(8, 8, 8);
+    margin-top: 0;
+
+    margin-bottom: 40px;
+    background: linear-gradient(to right, hsla(330, 100%, 50%, 0.24), rgba(153, 0, 84, 0.308));
+    border: none;
+    box-shadow: 0px 0px 2vw rgba(255, 1, 141, 0.911);
+
+    width: 50%;
+    height: 60px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+#main-page{
+    width: 100vw;
+}
+
+#works{
+    width: 100vw;
+    transform: translateX(100%);
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
+/*WORKS--------------------------------------*/
+
+.work-1{
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.work-1img{
+    width: 50%;
+    margin-right: 5%;
+}
+
+.work-1img img{
+    width: 100%;
+}
+
+.work-1text{
+    margin: 0;
+    color: white;
+    width: 50%;
+}
+
+.work-1text h2{
+    font-size: 190%;
+    padding-bottom: 2p;
+    border-bottom: white solid 0.5vw;
+}
+
+.work-1text p{
+    color: rgb(223, 223, 223);
+    font-weight: bold;
+}
+
+.bottom-text{
+    color: white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+
+@media screen and (min-width: 426px){
+    .blank{
+        height: 17vw;
+    }
+
+    .information h2{
+        font-size: 25px;
+    }
+    .information2 h2{
+        font-size: 25px;
+    }
+
+    input[type="text"] {
+        width: 30%;
+    }
+
+    
+}
+
+@media screen and (max-width: 606px) {
+    .work-1text h2{
+        font-size: 150%;
+        
+    }
+    
+    .work-1text p{
+        font-size: 90%;
+    }
+
+    .bottom-text{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .work-1text h2{
+        font-size: 120%;
+        
+    }
+    
+    .work-1text p{
+        font-size: 70%;
+    }
+
+    .bottom-text{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .work-1text h2{
+        font-size: 100%;
+        
+    }
+    
+    .work-1text p{
+        font-size: 50%;
+    }
+}
+
+@media screen  and (min-width: 769px) {
+    .work-1{
+        width: 40%;
+    }
+
+    .work-1text h2{
+        font-size: 120%;
+        
+    }
+    
+    .work-1text p{
+        font-size: 70%;
+    }
+
+
+}
+
+@media screen and (min-width: 1100px){
+    .blank{
+        height: 10vw;
+        font-size: 20px;
+    }
+
+    .information h2{
+        font-size: 30px;
+    }
+
+    #wattpad{
+        width: 11vw;
+    }
+    
+    #fanfiction{
+        width: 11vw;
+    }
+
+    .information2 h2{
+        font-size: 20px;
+    }
+
+    #discord{
+        width: 11vw;
+        padding-bottom: 50px;
+    }
+
+    .work-1text h2{
+        font-size: 170%;
+        
+    }
+    
+    .work-1text p{
+        font-size: 90%;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+    .work-1text h2{
+        font-size: 170%;
+        
+    }
+    
+    .work-1text p{
+        font-size: 110%;
+    }
+}
+
+@media screen and (min-width: 1720px){
+    .information{
+        width: 30%;
+    }
+    .information h2{
+        font-size: 40px;
+    }
+    .information2{
+        width: 30%;
+    }
+    .information2 h2{
+        font-size: 40px;
+    }
+    #works-button{
+        width: 30%;
+    }
+
+    .work-1text h2{
+        font-size: 200%;
+        
+    }
+    
+    .work-1text p{
+        font-size: 150%;
+    }
+
+}
